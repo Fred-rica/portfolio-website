@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background-color: var(--body-bg);
+    color: white;
+}
+:root {
+    --pri-color:#62BDB2;
+    --body-bg:#373B40;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    width: 92%;
+    height: 75px;
+    background-color: #585D65;
+    border-radius: 100px;
+    position: fixed;
+    top: 40px;
+    left: 5%;
+    right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+.Logo-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+    align-items: center;
+   
+}
+.My-Name{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    justify-self: center;
+}
+.logo{
+    justify-self: end;
+    width: 30px;
+}
+.Menu-Wrapper{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+.Menu-Wrapper a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600; 
+     font-size: 15px;
+     text-transform: uppercase;
+}
+.Menu-Wrapper a:hover, .Menu-Wrapper a.active{
+    color: var(--pri-color);
+}
+.Nav-button{
+    padding: 20px 30px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.Nav-button:hover{
+    border: 1px solid var(--pri-color);
+}
+.hero-image{
+    width: 45%;
+    position: fixed;
+    background-color: red;
+    background-image: url(/images/WhatsApp\ Image\ 2022-04-25\ at\ 8.07.59\ PM.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.hero-image-overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(97, 189, 178,0.5);
+}
+.section-wrapper{
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 60px;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.intro-section{
+    border-bottom: 1px, solid, #585D65;
+    height: 100vh;
+}
+.intro-section h1{
+    font-weight: 800;
+    color:#ffff;
+    font-size: 48px;
+    line-height: 58px;
+    margin: 50px 0 0 -200px;
+    background-color: var(--body-bg);
+    padding: 70px;
+    border: none;
+    border-radius: 150px;
+}
+.intro-section h4{
+    color:var(--pri-color);
+}
+.intro-section p{
+    color:#ffff;
+    width: 85%;
+    line-height: 25px;
+}
+.Contact-button{
+    margin-top:50px;
+    margin-bottom: 70px;
+
+}
+.Contact-button a{
+    color: white;
+    padding: 20px 30px;
+    border: 1px solid #585D65;
+    border-radius: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.Contact-button a:hover{
+        border: 1px solid var(--pri-color);
+        color: var(--pri-color);
+    }
+.socials{
+    width: 5%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    border-left: 1px solid #585D65;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    gap: 20px 0px;
+}
+.Social-Icon-Circle{
+    width: 40px;
+    height:40px;
+    border: solid 1px #585D65;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Social-Icon{
+    color: white;
+}
+.Social-Icon:hover{
+    color: var(--pri-color);
+}
+.last-Social-Icon-Circle{
+    width: 40px;
+    height:40px;
+    border: solid 1px #585D65;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
