@@ -273,6 +273,55 @@ nav {
   justify-content: center;
   align-items: center;
 }
+.portfolio-div{
+    position: relative;
+}
+.portfolio-picture{
+    height: 150px;
+    width: 270px;
+}
+.picture-animation{
+    height: 120px;
+    width: 200px;
+    background-color: var(--pri-color);
+    position: absolute;
+    left: 50%;
+}
+.portfolio-header1{
+color: var(--pri-color);
+text-transform: uppercase;
+font-weight: 600;
+font-size: 12px;
+text-align: center;
+margin: 10px 0 5px 0;
+}
+.portfolio-header2{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    width: 250px;
+    text-align: center;
+}
+.portfolio-header2:hover{
+    color: var(--pri-color);
+}
+.contact-input-wrapper{
+    position: relative;
+}
+
+.contact-form{
+
+}
+.contact-input-box{
+    width: 100%;
+    height: 48px;
+    border-radius: 12px;
+    background-color:var(--body-bg);
+    border: 1px solid #585d65;
+}
+.contact-details{
+
+}
 .socials {
   width: 5%;
   height: 100vh;
