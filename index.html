@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="index.css" />
     <link rel="icon" href="Favicon.png" />
     <script
@@ -51,9 +55,11 @@
     </nav>
     <!-- main -->
     <main>
+      <!-- Hero-Image -->
       <div class="hero-image">
         <div class="hero-image-overlay"></div>
       </div>
+      <!-- Main sections -->
       <div class="section-wrapper">
         <!-- Introduction section -->
         <div class="intro-section">
@@ -102,13 +108,13 @@
                 <div class="contact-details-question">Freelance:</div>
                 <div class="contact-details-answer">Available</div>
                 <div class="contact-details-question">phone:</div>
-                <div class="contact-details-answer">+1 256 254 84 56</div>
+                <div class="contact-details-answer">+2348137058166</div>
               </div>
               <div class="contact-details">
                 <div class="contact-details-question">Residence:</div>
-                <div class="contact-details-answer">USA</div>
+                <div class="contact-details-answer">Nigeria</div>
                 <div class="contact-details-question">Address:</div>
-                <div class="contact-details-answer">San Francisco</div>
+                <div class="contact-details-answer">Lekki, Lagos</div>
                 <div class="contact-details-question">email:</div>
                 <div class="contact-details-answer">
                   egbelefredrica0@gmail.com
@@ -420,56 +426,69 @@
                 <a
                   href="https://fred-rica.github.io/Paystack-checkout-demo-clone/"
                   target="blank"
-                > <div class="picture-animation"></div>
+                >
+                  <div class="picture-animation"></div>
                   <img
                     src="./images/Paystack demo clone.jpeg"
                     alt="Paystack demo page clone"
                     class="portfolio-picture"
                   />
-                    <div class="portfolio-header1"> project</div>
-                    <div class="portfolio-header2">Paystack demo checkout page clone</div>
+                  <div class="portfolio-header1">project</div>
+                  <div class="portfolio-header2">
+                    Paystack demo checkout page clone
+                  </div>
                 </a>
               </div>
-              <div class="">
+              <div class="portfolio-div">
                 <a
                   href="https://fred-rica.github.io/portfolio-website/"
                   target="blank"
-                  ><img
+                  >
+                  <div class="picture-animation"></div>
+                  <img
                     src="./images/portfolio website.jpeg"
                     alt="porfolio website picture"
                     class="portfolio-picture"
-                />
-                <div class="portfolio-header1"> project</div>
-                <div class="portfolio-header2">Paystack demo checkout page clone</div>
-              </a>
+                  />
+                  <div class="portfolio-header1">project</div>
+                  <div class="portfolio-header2">
+                    portfolio website
+                  </div>
+                </a>
               </div>
-              <div class="">
+              <div class="portfolio-div">
                 <a
                   href="https://fred-rica.github.io/Fredricas-Website/"
                   target="blank"
                 >
+                <div class="picture-animation"></div>
                   <img
                     src="./images/Sample Website.jpeg"
                     alt="Sample website picture"
                     class="portfolio-picture"
-                />
-                <div class="portfolio-header1"> project</div>
-                <div class="portfolio-header2">Paystack demo checkout page clone</div>
-              </a>
+                  />
+                  <div class="portfolio-header1">project</div>
+                  <div class="portfolio-header2">
+                    Sample website
+                  </div>
+                </a>
               </div>
-              <div class="">
+              <div class="portfolio-div">
                 <a
                   href="https://fred-rica.github.io/portfolio-website/"
                   target="blank"
                 >
+                <div class="picture-animation"></div>
                   <img
                     src="./images/portfolio website.jpeg"
                     alt="porfolio website picture"
                     class="portfolio-picture"
-                />
-                <div class="portfolio-header1"> project</div>
-                <div class="portfolio-header2">Paystack demo checkout page clone</div>
-              </a>
+                  />
+                  <div class="portfolio-header1">project</div>
+                  <div class="portfolio-header2">
+                    Portfolio website
+                  </div>
+                </a>
               </div>
             </div>
           </div>
@@ -485,32 +504,99 @@
               <div class="contact-form">
                 <form action="">
                   <div class="contact-input-wrapper">
-                    <p>FULL NAME </p>
-                    <input type="text" class="contact-input-box">
+                    <p class="contact-input-label">
+                      &nbsp;&nbsp; Full name <span>*</span> &nbsp; &nbsp;
+                    </p>
+                    <input
+                      type="text"
+                      class="contact-input-box"
+                      placeholder="e.g Ade Musa Chidi"
+                    />
+                  </div>
+                  <div class="contact-input-wrapper">
+                    <p class="contact-input-label">
+                      &nbsp;&nbsp; email address <span>*</span> &nbsp; &nbsp;
+                    </p>
+                    <input
+                      type="email"
+                      class="contact-input-box"
+                      placeholder="example@domain.com"
+                    />
+                  </div>
+                  <div class="contact-input-wrapper">
+                    <p class="contact-textarea-label">
+                      &nbsp;&nbsp; message <span>*</span> &nbsp; &nbsp;
+                    </p>
+                    <textarea
+                      name=""
+                      id=""
+                      cols="30"
+                      rows="10"
+                      class="contact-textarea"
+                      placeholder="To write"
+                    ></textarea>
+                  </div>
+                  <div class="Contact-button">
+                    <a href="#"
+                      >send message &nbsp;
+                      <i class="fa-solid fa-angle-right fa-fw"></i>
+                    </a>
                   </div>
                 </form>
               </div>
-              <div class="contact-details"></div>
+              <div class="My-contact-details-wrapper">
+                <header class="My-contact-details-header">
+                  <h2>Egbele Fredrica</h2>
+                  <div>Front-end Developer</div>
+                </header>
+                <div class="My-contact-details">
+                  <div class="contact-details-question">Age:</div>
+                  <div class="contact-details-answer">24</div>
+                </div>
+                <div class="My-contact-details">
+                  <div class="contact-details-question">Freelance:</div>
+                  <div class="contact-details-answer">Available</div>
+                </div>
+                <div class="My-contact-details">
+                  <div class="contact-details-question">phone:</div>
+                  <div class="contact-details-answer">+2348137058166</div>
+                </div>
+                <div class="My-contact-details">
+                  <div class="contact-details-question">Residence:</div>
+                  <div class="contact-details-answer">Nigeria</div>
+                </div>
+                <div class="My-contact-details">
+                  <div class="contact-details-question">Address:</div>
+                  <div class="contact-details-answer">Lekki, Lagos</div>
+                </div>
+                <div class="My-contact-details">
+                  <div class="contact-details-question">email:</div>
+                  <div class="contact-details-answer">
+                    egbelefredrica0@gmail.com
+                  </div>
+                </div>
+                <div class="signature">Fredrica</div>
+              </div>
             </div>
           </div>
         </section>
-        <!-- socials -->
-        <div class="socials">
-          <div class="Social-Icon-Circle">
-            <a href="https://github.com/Fred-rica" target="blank"
-              ><i class="fa-brands fa-github Social-Icon fa-2x"></i
-            ></a>
-          </div>
-          <div class="Social-Icon-Circle">
-            <a href="https://www.instagram.com/fred_rica/" target="blank"
-              ><i class="fa-brands fa-instagram Social-Icon fa-2x"></i
-            ></a>
-          </div>
-          <div class="last-Social-Icon-Circle">
-            <a href="https://twitter.com/EFredrica" target="blank">
-              <i class="fa-brands fa-twitter Social-Icon fa-2x"></i
-            ></a>
-          </div>
+      </div>
+      <!-- socials -->
+      <div class="socials">
+        <div class="Social-Icon-Circle">
+          <a href="https://github.com/Fred-rica" target="blank"
+            ><i class="fa-brands fa-github Social-Icon fa-2x"></i
+          ></a>
+        </div>
+        <div class="Social-Icon-Circle">
+          <a href="https://www.instagram.com/fred_rica/" target="blank"
+            ><i class="fa-brands fa-instagram Social-Icon fa-2x"></i
+          ></a>
+        </div>
+        <div class="last-Social-Icon-Circle">
+          <a href="https://twitter.com/EFredrica" target="blank">
+            <i class="fa-brands fa-twitter Social-Icon fa-2x"></i
+          ></a>
         </div>
       </div>
     </main>
