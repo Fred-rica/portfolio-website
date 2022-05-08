@@ -349,7 +349,10 @@ width: 220px;
   color: #585d65;
   font-size: 15px;
 }
-input,textarea:focus::placeholder {
+textarea:focus::placeholder {
+  color: white;
+}
+input:focus::placeholder {
   color: white;
 }
 .contact-textarea{
@@ -408,6 +411,10 @@ textarea {
   font-family: 'Mr Dafoe', cursive;
   font-size: 32px;
 
+}
+.contact-email{
+  font-weight: 600;
+  font-size: 13px;
 }
 .socials {
   width: 5%;
